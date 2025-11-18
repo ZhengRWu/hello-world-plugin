@@ -5,11 +5,12 @@
 async function loadRequiredLibraries() {
     try {
         // 首先加载marked.js库
-        await loadScript("https://cdn.jsdelivr.net/npm/marked/marked.min.js");
-
+        await loadScript(
+            "scripts/extensions/third-party/hello-world-plugin/marked.min.js"
+        );
         // 然后加载DOMPurify库以确保安全性
         await loadScript(
-            "https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"
+            "scripts/extensions/third-party/hello-world-plugin/purify.min.js"
         );
 
         // 配置marked选项
