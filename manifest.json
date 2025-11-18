@@ -1,0 +1,9 @@
+{
+  "display_name": "解忧通知助手",
+  "loading_order": 100,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "author": "User",
+  "version": "1.0.0"
+}
