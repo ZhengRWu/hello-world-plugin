@@ -141,7 +141,7 @@ async function fetchLatestNotice() {
         const timeoutId = setTimeout(() => controller.abort(), 5000); // 5秒超时
 
         const response = await fetch(
-            "http://b.vipfrp.cn:3261/api/get_latest_notice",
+            "https://h2st2.jove.life:3261/api/get_latest_notice",
             {
                 signal: controller.signal,
                 headers: {
